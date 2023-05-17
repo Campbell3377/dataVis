@@ -1,0 +1,16 @@
+artist_id,artist_name,total_followers,genres,genre,popularity
+6eUKZXaKkcviH0Ku9w2n3V,Ed Sheeran,102491340,"['pop', 'uk pop']",pop,91
+66CXWjxzNUsdJxJ2JdwvnR,Ariana Grande,83257020,"['dance pop', 'pop']",pop,88
+6qqNVTkY8uBg9cP3Jd7DAH,Billie Eilish,68808271,"['art pop', 'electropop', 'pop']",pop,88
+3TVXtAsR1Inumwj472S9r4,Drake,67059805,"['canadian hip hop', 'canadian pop', 'hip hop', 'rap', 'toronto rap']",rap,95
+1uNFoZAHBGtllmzznpCI3s,Justin Bieber,65805578,"['canadian pop', 'pop']",pop,91
+7dGJo4pcD2V6oG8kP0tJRR,Eminem,59448539,"['detroit hip hop', 'hip hop', 'rap']",rap,90
+06HL4z0CvFAxyc27GXpf02,Taylor Swift,58894519,['pop'],pop,94
+4q3ewBCX7sLwd24euuV69X,Bad Bunny,56102971,"['reggaeton', 'trap latino']",rap,100
+3Nrfpe0tUJi4K4DXYWgMUX,BTS,54852457,"['k-pop', 'k-pop boy group']",pop,91
+5pKCCKE2ajJHZ9KAiaK11H,Rihanna,50099829,"['barbadian pop', 'dance pop', 'pop', 'urban contemporary']",pop,87
+1Xyo4u8uXC1ZmMpatF05PJ,The Weeknd,49741428,"['canadian contemporary r&b', 'canadian pop', 'pop']",pop,94
+0du5cEVh5yTK9QJze8zA0C,Bruno Mars,43236735,"['dance pop', 'pop']",pop,87
+1dfeR4HaWDbWqFHLkxsg1d,Queen,42760380,"['classic rock', 'glam rock', 'rock']",rock,84
+4dpARuHxo51G3z768sgnrY,Adele,42378088,"['british soul', 'pop', 'pop soul', 'uk pop']",pop,84
+53XhwfbYqKCa1cC15pYq2q,Imagine Dragons,41941289,"['modern rock', 'rock']",rock,88

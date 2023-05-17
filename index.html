@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Course Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+
+  <!-- <script src="../scrollama.min.js"></script> -->
+</head>
+<body>
+    <div class="container">
+        <!-- <h1 class="text-center">A Story of Spotify Trends </h1>
+        <h3 class="text-center">Akshaj - Sean - Tanay - Vishok</h3> -->
+        <!-- <div class="control" id="controlBar">
+            <a href="#" id="all" class="button active">All Genres</a>
+            <a href="#" id="genre" class="button">Artists By Genre</a>
+        </div>
+        <div id="vis"></div> -->
+        <section class="generic" id="intro">
+            <h1>
+                Music Trends Through Spotify
+            </h1>
+            <p>
+                Have fun.
+            </p>
+            <p class="seperator">
+            </p>
+        </section>
+
+        <section id="scrolly3">
+              
+            <figure>
+              <div class="vis" id="vis3"></div>
+            </figure>
+    
+            <article>
+
+                <div class="step" data-step="1">
+                    
+                    <h2>Tracks</h2>
+                    <p>
+                        Every dot plotted represents a song on Spotify plotted by danceability and energy
+                    </p>
+                </div>
+
+                <div class="step" data-step="2">
+                    
+                    <h2>Findings</h2>
+                    <p>
+                        If we scale by loudness and energy we see an upward trend.
+                    </p>
+                </div>
+
+                <div class="step" data-step="3">
+                    
+                    <h2>Findings</h2>
+                    <p>
+                        If we plot by acousticness and liveness we see an noticably downward trend.
+                    </p>
+                </div>
+
+                <div class="step" data-step="4">
+                    
+                    <h2>Findings</h2>
+                    <p>
+                        If we plot duration against popularity we notice two things.
+                        <br>One that there are a significant amount of 0 ratings, but more interestingly that most songs will gravititate to the 3-minute song length that has become a sort of norm.
+                    </p>
+                </div>
+
+                <div class="step" data-step="6">
+                    
+                    <h2>Findings</h2>
+                    <p>
+                        Interestingly, if we plot by key we see that every song falls within the classic 12-tone scale
+                    </p>
+                </div>
+                
+                <div class="step" data-step="6">
+                  
+                    <h2>Tracks</h2>
+                    <div class="controlBar" id="scatterControl">
+                        <label for="x">Choose an attribute for the X-Scale</label>
+                        <select name="x" id="x_select">
+                            <option value="danceability">Duration</option>
+                            <option value="duration">Danceability</option>
+                            <option value="popularity">Popularity</option>                            
+                            <option value="energy">Energy</option>
+                            <option value="key">Key</option>
+                            <option value="loudness">Loudness</option>
+                            <!-- <option value="release_date">Release Date</option> -->
+                            <option value="acousticness">Acousticness</option>
+                            <option value="liveness">Liveness</option>
+                            <option value="valence">Valence</option>
+                            <option value="tempo">Tempo</option>
+                        </select>
+                        <br>
+                        <label for="y">Choose an attribute for the Y-Scale</label>
+                        <select name="y" id="y_select">
+                            <option value="energy">Duration</option>
+                            <option value="danceability">Danceability</option>
+                            <option value="popularity">Popularity</option>
+                            <option value="energy">Energy</option>
+                            <option value="key">Key</option>
+                            <option value="loudness">Loudness</option>
+                            <!-- <option value="release_date">Release Date</option> -->
+                            <option value="acousticness">Acousticness</option>
+                            <option value="liveness">Liveness</option>
+                            <option value="valence">Valence</option>
+                            <option value="tempo">Tempo</option>
+                        </select>
+                    </div>
+                </div>
+                
+                
+                
+            </article>
+              
+        </section>
+
+        <section id="scrolly4">
+              
+            <figure>
+              <div class="vis" id="vis4"></div>
+            </figure>
+    
+            <article>
+
+                <div class="step" data-step="1">
+                    
+                    <h2>We can bin the data from the scatter plot to form a sort of heat map</h2>
+                    <p>
+                        We can go back through the examples we looked at in the scatter plot...
+                    </p>
+                </div>
+
+                <div class="step" data-step="2">
+                    
+                    <h2>Loudness - Energy</h2>
+                </div>
+
+                <div class="step" data-step="3">
+                    
+                    <h2>Acousticness - Liveness</h2>
+                </div>
+
+                <div class="step" data-step="4">
+                    
+                    <h2>Duration - Popularity</h2>
+                    <p>
+                        Here the popularity rating is much more clearly swayed by the mass amount of 0 rating for most songs.
+                    </p>
+                </div>
+
+                <div class="step" data-step="5">
+                    
+                    <h2>Key - Energy</h2>
+                </div>
+                
+                <div class="step" data-step="6">
+                  
+                    <h2>Tracks</h2>
+                    <div class="controlBar" id="scatterControl">
+                        <label for="x">Choose an attribute for the X-Scale</label>
+                        <select name="x" id="x_select">
+                            <option value="duration">Duration</option>
+                            <option value="danceability">Danceability</option>
+                            <option value="popularity">Popularity</option>                            
+                            <option value="energy">Energy</option>
+                            <option value="key">Key</option>
+                            <option value="loudness">Loudness</option>
+                            <option value="release_date">Release Date</option>
+                            <!-- <option value="acousticness">Acousticness</option> -->
+                            <option value="liveness">Liveness</option>
+                            <option value="valence">Valence</option>
+                            <option value="tempo">Tempo</option>
+                        </select>
+                        <br>
+                        <label for="y">Choose an attribute for the Y-Scale</label>
+                        <select name="y" id="y_select">
+                            <option value="duration">Duration</option>
+                            <option value="danceability">Danceability</option>
+                            <option value="popularity">Popularity</option>
+                            <option value="energy">Energy</option>
+                            <option value="key">Key</option>
+                            <option value="loudness">Loudness</option>
+                            <option value="release_date">Release Date</option>
+                            <!-- <option value="acousticness">Acousticness</option> -->
+                            <option value="liveness">Liveness</option>
+                            <option value="valence">Valence</option>
+                            <option value="tempo">Tempo</option>
+                        </select>
+                    </div>
+                </div>
+                
+                
+                
+            </article>
+              
+        </section>
+    
+        <section id="scrolly6">
+            
+        <figure>
+            <div class="vis" id="vis6"></div>
+        </figure>
+
+            <article>
+                
+                <div class="step" data-step="1">
+                    
+                    <h2>Artists</h2>
+                    <p>
+                        Every circle represents an artist with the size scaled by followers
+                        and saturation scaled by 'popularity'
+                    </p>
+                </div>
+                
+                <div class="step" data-step="2">
+                    <h2>Let's break the data up by genre</h2>
+                    <p>
+                        Using the genre data, we can interpret broader genre categories to see where most artists fit into:
+                        <span class="label red">Rock</span>, 
+                        <span class="label purple">Jazz</span>,
+                        <span class="label lightblue">Pop</span>,
+                        <span class="label darkblue">Electronic</span>, or
+                        <span class="label yellow">Rap/R&B</span>.
+                    </p>
+                </div>
+                
+                <div class="step" data-step="3">
+                    <h2>Try Clicking on one of the bubbles</h2>
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/4tZwfgrHOc3mvqYlEYSvVi?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+
+            </article>
+            
+        </section>
+    
+        <section class="generic" id="outro">
+            <p class="seperator">
+            </p>
+            <p>
+                That's a wrap.
+            </p>  
+        </section>
+
+    </div>
+
+    <script src="src/intersection-observer.js"></script>
+    <script src="src/stickyfill.min.js"></script>
+    <script src="src/scrollama.min.js"></script>
+    <script src="https://d3js.org/d3-hexbin.v0.2.min.js"></script>
+    <script src="js/bar.js"></script>
+    <!-- <script src="js/donut.js"></script> -->
+    <script src="js/scatter.js"></script>
+    <script src="js/heat.js"></script>
+    <script src="js/bubble.js"></script>
+    <script src="js/scrollerMulti.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,122 @@
+[
+  {
+    "artist_id": "6eUKZXaKkcviH0Ku9w2n3V",
+    "artist_name": "Ed Sheeran",
+    "total_followers": 102491340,
+    "genres": "['pop', 'uk pop']",
+    "genre": "pop",
+    "popularity": 91
+  },
+  {
+    "artist_id": "66CXWjxzNUsdJxJ2JdwvnR",
+    "artist_name": "Ariana Grande",
+    "total_followers": 83257020,
+    "genres": "['dance pop', 'pop']",
+    "genre": "pop",
+    "popularity": 88
+  },
+  {
+    "artist_id": "6qqNVTkY8uBg9cP3Jd7DAH",
+    "artist_name": "Billie Eilish",
+    "total_followers": 68808271,
+    "genres": "['art pop', 'electropop', 'pop']",
+    "genre": "pop",
+    "popularity": 88
+  },
+  {
+    "artist_id": "3TVXtAsR1Inumwj472S9r4",
+    "artist_name": "Drake",
+    "total_followers": 67059805,
+    "genres": "['canadian hip hop', 'canadian pop', 'hip hop', 'rap', 'toronto rap']",
+    "genre": "rap",
+    "popularity": 95
+  },
+  {
+    "artist_id": "1uNFoZAHBGtllmzznpCI3s",
+    "artist_name": "Justin Bieber",
+    "total_followers": 65805578,
+    "genres": "['canadian pop', 'pop']",
+    "genre": "pop",
+    "popularity": 91
+  },
+  {
+    "artist_id": "7dGJo4pcD2V6oG8kP0tJRR",
+    "artist_name": "Eminem",
+    "total_followers": 59448539,
+    "genres": "['detroit hip hop', 'hip hop', 'rap']",
+    "genre": "rap",
+    "popularity": 90
+  },
+  {
+    "artist_id": "06HL4z0CvFAxyc27GXpf02",
+    "artist_name": "Taylor Swift",
+    "total_followers": 58894519,
+    "genres": "['pop']",
+    "genre": "pop",
+    "popularity": 94
+  },
+  {
+    "artist_id": "4q3ewBCX7sLwd24euuV69X",
+    "artist_name": "Bad Bunny",
+    "total_followers": 56102971,
+    "genres": "['reggaeton', 'trap latino']",
+    "genre": "rap",
+    "popularity": 100
+  },
+  {
+    "artist_id": "3Nrfpe0tUJi4K4DXYWgMUX",
+    "artist_name": "BTS",
+    "total_followers": 54852457,
+    "genres": "['k-pop', 'k-pop boy group']",
+    "genre": "pop",
+    "popularity": 91
+  },
+  {
+    "artist_id": "5pKCCKE2ajJHZ9KAiaK11H",
+    "artist_name": "Rihanna",
+    "total_followers": 50099829,
+    "genres": "['barbadian pop', 'dance pop', 'pop', 'urban contemporary']",
+    "genre": "pop",
+    "popularity": 87
+  },
+  {
+    "artist_id": "1Xyo4u8uXC1ZmMpatF05PJ",
+    "artist_name": "The Weeknd",
+    "total_followers": 49741428,
+    "genres": "['canadian contemporary r&b', 'canadian pop', 'pop']",
+    "genre": "pop",
+    "popularity": 94
+  },
+  {
+    "artist_id": "0du5cEVh5yTK9QJze8zA0C",
+    "artist_name": "Bruno Mars",
+    "total_followers": 43236735,
+    "genres": "['dance pop', 'pop']",
+    "genre": "pop",
+    "popularity": 87
+  },
+  {
+    "artist_id": "1dfeR4HaWDbWqFHLkxsg1d",
+    "artist_name": "Queen",
+    "total_followers": 42760380,
+    "genres": "['classic rock', 'glam rock', 'rock']",
+    "genre": "rock",
+    "popularity": 84
+  },
+  {
+    "artist_id": "4dpARuHxo51G3z768sgnrY",
+    "artist_name": "Adele",
+    "total_followers": 42378088,
+    "genres": "['british soul', 'pop', 'pop soul', 'uk pop']",
+    "genre": "pop",
+    "popularity": 84
+  },
+  {
+    "artist_id": "53XhwfbYqKCa1cC15pYq2q",
+    "artist_name": "Imagine Dragons",
+    "total_followers": 41941289,
+    "genres": "['modern rock', 'rock']",
+    "genre": "rock",
+    "popularity": 88
+  }
+]
