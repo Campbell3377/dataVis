@@ -1,5 +1,4 @@
 # Trends in Music Through Spotify
-# Sean - Tanay - Akshaj - Vishok
 
 ## Overview:
     With the help of data-driven storytelling, our team was able to present interactive visualizations, which describe music trends on the Spotify application.
@@ -40,45 +39,10 @@
     The bubble map uses follower count to scale the size of the bubbles and popularity to scale the saturation. The bubble map animates on a scroll to separate the bubbles to different gravitational centers based on aggregate genre data.
 ![idioms](bubble.PNG)
 ![idioms](innovative.PNG)
-    The bar chart plots the largest or most popular artists on spotify and fills color by the aggregate genre used in the bubble chart
-![idioms](bar.PNG)
     The scatter plot allows for songs to be plotted and scaled by various categories like energy, loudness, key, etc. The transitions are animated on scroll and on the 
     last step, a control panel is presented for user to pick the attributes for the x and y scales
 ![idioms](scatter.png)
     The heat map essentially takes the same data and processing from the scatterplot and aggregates the data into bins that can scale their transparency by the number 
     of entries in a given bin. The transitions are mapped to follow the scatterplot and also has a control panel on the last step for chossing x and y scales.
-![idioms](https://user-images.githubusercontent.com/79304406/204470945-bf0a57fa-0545-4056-96a5-3b6e33ae98d4.png)
-    
-    The Donut chart pretty much shows the data of how many popular artist fit in each genre. Green represents Pop, Red represents Rap/R&B, while Blue represents other genres such as rock, edm, and Jazz.
 ![idioms](heat.PNG)
     The views are linked by scrollama setups, each with their own section and chart.
-    
-
-## Reflection
-    Our initial proposal essentially started with the idea that we wanted to tell a story about music, and we found that spotify was an interesting outlet/data source 
-    to do it.
-    We came up with a 4 ideas for visualizations at the time of the proposal, unaware we needed 6, but nonetheless we made only 2 of those we proposed 
-    Of those two, the innovative vis was made just about exactly like it was proposed.
-    For the rest of the visualizations, we had to come up with designs that would support the data we had and the narrative we were telling.
-    Through the WIP and final submission we each worked on our own visualizations, while Sean implemented the scrollytelling on the main page. A potential pitfall to 
-    this it seems is that, to use separate charts I have six scrollama instances running each of the charts at once. This seems to make the animations drop frames on 
-    slower computers. Perhaps a more efficient program could do this same task while preserving the frame rates on slower computers. 
-    
-
-## Team workload
-    The team divided the workload into one or two visualization among each team member. Our main aim was to provide the user with a creative and interactive experience. 
-    While Sean took most of the responsibilities of the project, each team member helped him in the best way possible. 
-    The workload of each team member is as follows:
-    Akshaj: Was responsible for exploring which datasets could be used for each visualization. Created a stacked bar chart that showed top 3 artists for each genre, but was unable to run it completely and add the chart to the webpage. 
-    Sean: Took care of the scrolling functionalities of the webpage. Was responsible for making the heatmaps and the scatter plots in the project. Added the Spotify application at the bottom to play a few seconds of the selected track. He was also responsible for making the bubble chart.
-    Tanay: Was responsible for making the bar plot describing the popularity of the top 15 artists of 2022. He was also responsible for making a line chart but due to unforeseen circumstances (influenced by Covid-19), he was unable to add the chart. 
-    Vishok: He was responsible for making the donut chart and finding out the necessary datasets for the project.
-
-
-
-## Troubleshooting / Tips
-    Using named transitions can prevent multiple transitions from interrupting one another, ie. path.transition('thing1')... and path.transition('thing2)... can run at the same time
-
-    var d = d3.select([node]).datum(); Use this to get the data object tied to any node that was created through .data().enter().append()
-
-    If you are getting random errors when using names from the dataset you can set if (expected) else () print statements when you parse the data
